@@ -1,0 +1,12 @@
+
+<Files *.xgmml>
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+</Files>
+
+
+<Files *.txt>
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+</Files>
+

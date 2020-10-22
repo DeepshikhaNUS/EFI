@@ -1,0 +1,35 @@
+
+/* Set colors */
+
+h1 {
+    color: #005591;
+}
+
+h1.ruled {
+    border-bottom-color: #005591;
+}
+
+a, .ui-widget-content a {
+    color: #005591;
+}
+
+.footer a:link, .footer a:visited {
+    color: #005591;
+}
+
+
+
+.create-job-options div {
+    margin-bottom: 10px;
+}
+
+.create-job-options table {
+    border: 0;
+}
+
+.create-job-options table td {
+    padding: 0 10px 10px 0;
+}
+
+
+

@@ -1,0 +1,68 @@
+ul.tree, ul.tree ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+} 
+ul.tree ul {
+    margin-left: 20px;
+}
+ul.tree li {
+    margin: 0;
+    padding: 2px 7px;
+    line-height: 20px;
+    /*color: #369;*/
+    font-weight: bold;
+    border-left:1px solid rgb(100,100,100);
+}
+ul.tree li:last-child {
+    border-left:none;
+}
+ul.tree li:before {
+   position:relative;
+   top:-0.3em;
+   height:1em;
+   width:12px;
+   color:white;
+   border-bottom:1px solid rgb(100,100,100);
+   content:"";
+   display:inline-block;
+   left:-7px;
+}
+ul.tree li:last-child:before {
+   border-left:1px solid rgb(100,100,100);   
+}
+
+ul.no-deco {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.top-level {
+    margin: 0 0 40px 0;
+    font-weight: bold;
+}
+
+span.date {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    font-weight: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+ul.tree li .job-metadata {
+    padding-left: 12px;
+}
+

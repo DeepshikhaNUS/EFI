@@ -1,0 +1,38 @@
+
+/* Set colors */
+
+h1 { 
+    color: #317873;
+}
+
+h1.ruled {
+    border-bottom-color: #317873;
+}
+
+a, .ui-widget-content a {
+    color: #317873;
+}
+
+.footer a:link, .footer a:visited {
+    color: #317873;
+}
+
+
+.row {
+    display: flex;
+}
+
+.col-xs-5 {
+    flex: 40%;
+    padding: 5px;
+}
+
+.col-xs-2 {
+    flex: 20%;
+    padding: 5px;
+}
+
+.row select {
+    width: 100%;
+}
+

@@ -1,0 +1,70 @@
+
+/* Set colors */
+
+h1 {
+    color:#7a0026;
+}
+
+h1.ruled {
+    border-bottom-color: #7a0026;
+}
+
+a, .ui-widget-content a {
+    color: #7a0026;
+}
+
+.footer a:link, .footer a:visited {
+    color: #7a0026;
+}
+
+
+/* EST-Specific Styles */
+
+span.plot-header {
+    display: inline-block;
+    width: 320px;
+}
+
+.family_count_btn {
+    padding: 11px 38px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pfam_size {
+    width: 80%;
+    text-align: right;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+
+.input-error {
+    color: red;
+}
+
+.input-warning {
+    color: orange;
+}
+
+.stepc-graphs div.ui-helper-reset {
+    line-height: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sort-toggle {
+    cursor: pointer;
+}
+
